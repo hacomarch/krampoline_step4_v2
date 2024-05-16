@@ -46,7 +46,7 @@ spec:
             - name: SPRING_MAIL_SMTP_WRITETIMEOUT
               value: "5000"
             - name: SPRING_REDIS_HOST
-              value: "localhost"
+              value: "redis"
             - name: SPRING_REDIS_PORT
               value: "6379"
             - name: SPRING_MAIL_AUTH_CODE_EXPIRATION_MILLIS
