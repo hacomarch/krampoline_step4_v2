@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: redis
-          image: redis:latest
+          image: krmp-d2hub-idock.9rum.cc/goorm/nginx:latest
           ports:
             - containerPort: 6379
 ---
